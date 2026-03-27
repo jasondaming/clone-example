@@ -1,0 +1,55 @@
+Pigeon: 
+-CANId #1
+-Will be as centered as possible with offsets given as needed.
+
+Power Distributer:
+-CANId #2
+
+Limelight:
+-Will be on the back of the hopper as centered as possible
+-Will make the way its facing the front of the robot
+
+Swerve:
+-MK4 L2
+-Gear Ratio: 6.75
+-Radius: 2" Diameter: 4" (w/ tread)
+-CANIds #4-15
+-Will have same IDs as current swerve after the change
+-5.9 Driving Gear Ratio and a 12.8 Steering Gear Ratio
+
+Intake:
+-CANIds #16+17
+-2 Motors
+-Both rotate clockwise
+-Current assumed power is 80% for upper motor and 30% for lower
+-No worries for time limit they assume the button/bumber will be held down to function
+
+Shooter:
+-CANId #17 (Same as intake)
+-1 Motor
+-Rotates counterclockwise
+-Current assumed power is 80%
+-No worries for time limit as it is assumes the button/bumber will be held down
+
+Climber
+-CANIds: #18+19
+-Assumed 2 motors by may be 1
+-Will have gear boxes
+-Has to go up 8 1/2" 
+    -Will have to find out motors later for rotations
+-No sensors currently planned
+-Climber will be located on the left
+
+intake speeds: -0.50, -0.50
+shooter speeds:
+  - flywheel: 70-80
+  - feeder: 70
+
+Robot Configs:
+    -Length: 27 1/2 in
+    -Width: 27 1/2 in
+    -Wheel Radius: 2 in
+    -Wheel Base and Track Width: 22 in
+    -Driving Gear Ratio: 5.9
+    -Steering Gear Ratio: 12.8
+    -Weight: 37.9 Kg
